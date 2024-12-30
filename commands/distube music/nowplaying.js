@@ -54,7 +54,7 @@ module.exports = {
                 .setAuthor({ 
                     name: lang.nowPlayingTitle, 
                     iconURL: musicIcons.playerIcon,
-                    url: "https://discord.gg/xQF9f9yUEM"
+                    url: "https://discord.gg/dYFneDBgY4"
                 })
                 .setDescription(`- ${lang.nowPlayingDescriptionText}\n[${currentSong.name}](${currentSong.url})`)
                 .setFooter({ text: lang.nowPlayingFooterText, iconURL: musicIcons.footerIcon })
@@ -73,7 +73,7 @@ module.exports = {
                     .setAuthor({ 
                         name: lang.nowPlayingNoQueueTitle, 
                         iconURL: musicIcons.wrongIcon,
-                        url: "https://discord.gg/xQF9f9yUEM"
+                        url: "https://discord.gg/dYFneDBgY4"
                     })
                     .setFooter({ text: lang.nowPlayingFooterText, iconURL: musicIcons.footerIcon })
                     .setDescription(lang.nowPlayingNoQueue);
